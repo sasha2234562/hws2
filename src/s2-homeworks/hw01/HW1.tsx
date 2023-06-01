@@ -33,10 +33,10 @@ export const message0: MessageType = {
     id: 0,
     user: {
         avatar: avatar, // можно менять
-        name: 'Some Name',  // можно менять
+        name: 'Sasha',  // можно менять
     },
     message: {
-        text: 'Hello, People', // можно менять
+        text: 'Hello, she didn’t do anything and rested all day, how are you?', // можно менять
         time: '22:00', // можно менять
     },
 }
