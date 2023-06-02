@@ -16,7 +16,7 @@ const Message = (props: MessagePropsType) => {
                 <img
                     id={'hw1-avatar-' + props.message.id}
                     // создаёт студент
-                    src={"https://img.championat.com/news/big/m/i/avatar-2-vse-rekordy-filma_16746554971587350740.jpg"}
+                    src={props.message.user.avatar}
                     //
                 />
                 <div className={s.text}>
