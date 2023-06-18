@@ -3,7 +3,7 @@ import Greeting from './Greeting'
 import { UserType } from './HW3'
 
 type GreetingContainerPropsType = {
-    users: any // need to fix any
+    users: UserType // need to fix any
     addUserCallback: any // need to fix any
 }
 
