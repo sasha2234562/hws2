@@ -9,8 +9,8 @@
 }
 
 .input {
-    width: 372px;
-    padding: 113px;
+    width: 272px;
+    padding: 13px;
     border-radius: 5px;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .errorInput {
-    /*border: 1px solid red;*/
+    border: 1px solid red;
 }
 
 .button {
@@ -40,6 +40,9 @@
 }
 
 .button:disabled {
+    opacity: 50%;
+    background-color: #0066CC;
+    color: white;
 }
 
 .text {
