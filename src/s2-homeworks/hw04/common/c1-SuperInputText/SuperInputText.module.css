@@ -1,20 +1,25 @@
 .input:focus {
+
 }
 
 .input {
 }
 
 .inputWrapper {
+    display: grid;
 }
 
 .superInput {
 }
 
 .errorInput {
+    border: 1px solid red;
 }
 
 .errorInput:focus {
+    border: 1px solid red;
 }
 
 .error {
+    color: #CC1439;
 }

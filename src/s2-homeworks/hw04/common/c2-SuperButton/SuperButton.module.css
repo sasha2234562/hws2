@@ -1,22 +1,27 @@
 .button {
+/*background-color: aqua;*/
 }
 
 .disabled {
+    background-color: yellow;
 }
 
 .secondary {
 }
 
 .default {
+   color:  #0066CC;
 }
 
 .red {
+    background-color: #cc0000;
 }
 
 .default:hover {
 }
 
 .red:hover {
+
 }
 
 .secondary:hover {
